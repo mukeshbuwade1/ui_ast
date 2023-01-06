@@ -9,11 +9,11 @@ import data from "../data/feature"
 export default function Home() {
     return (
         <div className="main">
-            {/* <section>
+            <section>
                 <Header />
             </section>
-            <Leftsection/>
-            <Movingcontent/> */}
+            {/* <Leftsection/> */}
+            <Movingcontent/>
             < section className='screen-container' >
                 <h2 className="main-heading">
                     Experience the full power of QuillBot
@@ -28,9 +28,9 @@ export default function Home() {
                 </div>
             </section >
 
-            {/* <section>
+            <section>
                 <Crad />
-            </section> */}
+            </section>
 
         </div>
     )
